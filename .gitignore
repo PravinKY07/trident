@@ -1,0 +1,49 @@
+# --- Model files --- never commit, fetched from Hugging Face ---
+models/*.onnx
+models/*.data
+models/*.bin
+models/*.safetensors
+models/*.pt
+models/*.pth
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+env/
+
+# --- IDE and OS ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# --- Local scratch ---
+scratch/
+tmp/
+*.local
+*.notes
+*.bak
+diag.py
+
+# --- Internal docs --- must never reach the public repo ---
+docs/
+
+# --- Logs and runtime artifacts ---
+*.log
+trident-cleanup-*.ps1
+!cleanup_template.ps1
+
+logs/
+config/trusted_paths.json
+
+# --- Build artifacts and HF staging ---
+hf_upload/
+dist/
+build/
+*.spec
