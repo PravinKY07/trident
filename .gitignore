@@ -6,6 +6,10 @@ models/*.safetensors
 models/*.pt
 models/*.pth
 
+# --- Model artifacts fetched from HF, not tracked ---
+models/tokenizer.json
+models/tokenizer/
+
 # --- Python ---
 __pycache__/
 *.py[cod]
@@ -47,3 +51,11 @@ hf_upload/
 dist/
 build/
 *.spec
+
+# --- Dev scratch and local state ---
+models-devbackup/
+README.local.md
+report.cmd
+report-uri.cmd
+config/
+trident_windows.egg-info/

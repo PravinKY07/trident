@@ -1,1 +1,0 @@
-"""TRIDENT setup utilities — model download, verification, environment checks."""
